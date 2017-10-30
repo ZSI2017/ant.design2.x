@@ -12,7 +12,7 @@ const ProductList = ({onDelete,products}) => {
             return (
                 <Popconfirm title="Delete?"  onConfirm = {() => onDelete(record.id)}>
                     <Button> Delete</Button>
-                  </Popconfirm>
+                </Popconfirm>
             );
         },
     }];
